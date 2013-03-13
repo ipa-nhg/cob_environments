@@ -15,9 +15,9 @@
 
   <!-- start gui -->
   <!-- comment in for fuerte -->
-  <!-- group if="$(arg gui)">
+  <group if="$(arg gui)">
     <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/>
-  </group-->
+  </group>
 
 </launch>
 
